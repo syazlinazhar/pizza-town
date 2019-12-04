@@ -1,3 +1,11 @@
+<?php
+$data = file_get_contents('data/pizza.json');
+$menu = json_decode($data, true);
+
+$menu = $menu["menu"];
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,7 +16,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Pizza Town</title>
+    <title>House of Pizza</title>
   </head>
   <body>
 
@@ -16,22 +24,45 @@
             <div class="container">
 
             <a class="navbar-brand" href="#">
-        <img src="img/logo.png.gif" width="100">
-        </a>
+              <img src="img/logo.png.gif" width="100">
+            </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </div>
-            </div>
+            <a class="nav-item nav-link active" href="#">Home</a>
+                  </div>
+                </div>
             </div>
         </nav>
+
+        <div class="container">
+
+          <div class="row mt-3">
+            <div class="col">
+              <h1>All Menu</h1>
+            </div>
+          </div>
+
+          <div class="row">
+          <?php foreach ($menu as $row) : ?>
+            <div class="col-md-4">
+              <div class="card mb-3">
+                  <img src="img/menu/<?= $row["img"]; ?>" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title"><?= $row["name"]; ?></h5>
+                    <p class="card-text"><?= $row["desc"]; ?></p>
+                    <h5 class="card-title"><?= $row["price"]; ?></h5>
+                    <a href="#" class="btn btn-dark">Order Now</a>
+                    </div>
+                  </div>
+              </div>
+              <?php endforeach; ?>
+            </div>
+          </div>    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

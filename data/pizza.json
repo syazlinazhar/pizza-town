@@ -30,13 +30,6 @@
         },
         {
             "category": "pizza",
-            "name": "Chicago Pizza",
-            "desc": "Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in. During the early 1900’s, Italian immigrants in the windy city were searching for something similar to the Neapolitan pizza that they knew and loved. Instead of imitating the notoriously thin pie, Ike Sewell had something else in mind. He created a pizza with a thick crust that had raised edges, similar to a pie, and ingredients in reverse, with slices of mozzarella lining the dough followed by meat, vegetables, and then topped with a can of crushed tomatoes.",
-            "price": 55000,
-            "img": "neo.jpg"
-        },
-        {
-            "category": "pizza",
             "name": "Detroit Pizza",
             "desc": "Reflecting the city’s deep ties to the auto industry, Detroit-style pizza was originally baked in a square automotive parts pan in the 1940’s. Detroit pizza is first topped with pepperoni, followed by brick cheese which is spread to the very edges of the pan, yielding a caramelized cheese perimeter. Sauce is then spooned over the pizza, an order similar to Chicago-style pizza. This pizza features a thick, extra crispy crust that is tender and airy on the inside.",
             "price": 65000,
@@ -48,6 +41,41 @@
             "desc": "Looking for a light slice? St. Louis pizza features a thin crust with a cracker-like consistency that is made without yeast. Due to the crispy crust, St. Louis pizza is usually cut into three- or four-inch rectangles, known as party or tavern cut. This pizza features Provel processed cheese, which is a gooey combination of cheddar, Swiss, and provolone cheeses.",
             "price": 75000,
             "img": "louise.jpg"
+        },
+        {
+            "category": "beverages",
+            "name": "Vanilla Cream Frappucino",
+            "desc": "This rich and creamy blend of vanilla bean, milk and ice topped with whipped cream takes va-va-vanilla flavor to another level. To change things up, try it Affogato-style by adding an Affogato-style shot: a hot espresso shot poured right over the top.",
+            "price": 25000,
+            "img": "vanilla.jpg"
+        }, 
+        {
+            "category": "beverages",
+            "name": "Green Tea Cream Frappucino",
+            "desc": "We blend sweetened premium matcha green tea, milk and ice and top it with sweetened whipped cream to give you a delicious boost of energy.",
+            "price": 30000,
+            "img": "green.jpg"
+        }, 
+        {
+            "category": "beverages",
+            "name": "Caramel Cream Frappuccino",
+            "desc": "Milk blended with caramel sauce and ice then topped with whipped cream and caramel drizzle.",
+            "price": 35000,
+            "img": "car.jpg"
+        }, 
+        {
+            "category": "pasta",
+            "name": "Beef Stroganoff",
+            "desc": "Make a classic beef stroganoff with steak and mushrooms for a tasty midweek meal. Garnish with parsley and serve with pappardelle pasta or rice.",
+            "price": 45000,
+            "img": "beef.jpg"
+        }, 
+        {
+            "category": "pasta",
+            "name": "Fettucine Alfredo",
+            "desc": "Hankering for a comforting bowl of pasta in creamy sauce? This sumptuous Italian dish is for you. It takes just 25 minutes so it's an easy midweek meal.",
+            "price": 50000,
+            "img": "fett.jpg"
         }
     ]
 }

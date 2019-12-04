@@ -1,0 +1,53 @@
+{
+    "menu": [
+        {
+            "category": "pizza",
+            "name": "California Pizza",
+            "desc": "California pizza, or gourmet pizza, is known for its unusual ingredients.Chef Ed LaDou created a pizza with mustard, ricotta, pate, and red pepper.",
+            "price": 70000,
+            "img": "cali.jpg"
+        },
+        {
+            "category": "pizza",
+            "name": "Greek Pizza",
+            "desc": "Greek pizza was created by Greek immigrants who came to America and were introduced to Italian pizza. Greek-style pizza, especially popular in the New England states, features a thick and chewy crust cooked in shallow, oiled pans, resulting in a nearly deep-fried bottom.",
+            "price": 60000,
+            "img": "greek.jpg"
+        },
+        {
+            "category": "pizza",
+            "name": "New-York Style Pizza",
+            "desc": "With its characteristic large, foldable slices and crispy outer crust, New York-style pizza is one of America’s most famous regional pizza types. Originally a variation of Neapolitan-style pizza, the New York slice has taken on a fame all its own, with some saying its unique flavor has to do with the minerals present in New York’s tap water supply.",
+            "price": 50000,
+            "img": "ny.jpg"
+        },
+        {
+            "category": "pizza",
+            "name": "Neapolitan Pizza",
+            "desc": "Neapolitan is the original pizza. This delicious pie dates all the way back to 18th century in Naples, Italy. During this time, the poorer citizens of this seaside city frequently purchased food that was cheap and could be eaten quickly.",
+            "price": 45000,
+            "img": "neo.jpg"
+        },
+        {
+            "category": "pizza",
+            "name": "Chicago Pizza",
+            "desc": "Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in. During the early 1900’s, Italian immigrants in the windy city were searching for something similar to the Neapolitan pizza that they knew and loved. Instead of imitating the notoriously thin pie, Ike Sewell had something else in mind. He created a pizza with a thick crust that had raised edges, similar to a pie, and ingredients in reverse, with slices of mozzarella lining the dough followed by meat, vegetables, and then topped with a can of crushed tomatoes.",
+            "price": 55000,
+            "img": "neo.jpg"
+        },
+        {
+            "category": "pizza",
+            "name": "Detroit Pizza",
+            "desc": "Reflecting the city’s deep ties to the auto industry, Detroit-style pizza was originally baked in a square automotive parts pan in the 1940’s. Detroit pizza is first topped with pepperoni, followed by brick cheese which is spread to the very edges of the pan, yielding a caramelized cheese perimeter. Sauce is then spooned over the pizza, an order similar to Chicago-style pizza. This pizza features a thick, extra crispy crust that is tender and airy on the inside.",
+            "price": 65000,
+            "img": "detroit.jpg"
+        },
+        {
+            "category": "pizza",
+            "name": "St. Louis Pizza",
+            "desc": "Looking for a light slice? St. Louis pizza features a thin crust with a cracker-like consistency that is made without yeast. Due to the crispy crust, St. Louis pizza is usually cut into three- or four-inch rectangles, known as party or tavern cut. This pizza features Provel processed cheese, which is a gooey combination of cheddar, Swiss, and provolone cheeses.",
+            "price": 75000,
+            "img": "louise.jpg"
+        }
+    ]
+}

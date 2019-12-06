@@ -4,42 +4,42 @@
             "category": "pizza",
             "name": "California Pizza",
             "desc": "California pizza, or gourmet pizza, is known for its unusual ingredients.Chef Ed LaDou created a pizza with mustard, ricotta, pate, and red pepper.",
-            "price": 70000,
+            "price": "Rp. 70000",
             "img": "cali.jpg"
         },
         {
             "category": "pizza",
             "name": "Greek Pizza",
             "desc": "Greek pizza was created by Greek immigrants who came to America and were introduced to Italian pizza. Greek-style pizza, especially popular in the New England states, features a thick and chewy crust cooked in shallow, oiled pans, resulting in a nearly deep-fried bottom.",
-            "price": 60000,
+            "price": "Rp. 60000",
             "img": "greek.jpg"
         },
         {
             "category": "pizza",
             "name": "New-York Style Pizza",
             "desc": "With its characteristic large, foldable slices and crispy outer crust, New York-style pizza is one of America’s most famous regional pizza types. Originally a variation of Neapolitan-style pizza, the New York slice has taken on a fame all its own, with some saying its unique flavor has to do with the minerals present in New York’s tap water supply.",
-            "price": 50000,
+            "price": "Rp. 50000",
             "img": "ny.jpg"
         },
         {
             "category": "pizza",
             "name": "Neapolitan Pizza",
             "desc": "Neapolitan is the original pizza. This delicious pie dates all the way back to 18th century in Naples, Italy. During this time, the poorer citizens of this seaside city frequently purchased food that was cheap and could be eaten quickly.",
-            "price": 45000,
+            "price": "Rp. 45000",
             "img": "neo.jpg"
         },
         {
             "category": "pizza",
             "name": "Detroit Pizza",
             "desc": "Reflecting the city’s deep ties to the auto industry, Detroit-style pizza was originally baked in a square automotive parts pan in the 1940’s. Detroit pizza is first topped with pepperoni, followed by brick cheese which is spread to the very edges of the pan, yielding a caramelized cheese perimeter. Sauce is then spooned over the pizza, an order similar to Chicago-style pizza. This pizza features a thick, extra crispy crust that is tender and airy on the inside.",
-            "price": 65000,
+            "price": "Rp. 65000",
             "img": "detroit.jpg"
         },
         {
             "category": "pizza",
             "name": "St. Louis Pizza",
             "desc": "Looking for a light slice? St. Louis pizza features a thin crust with a cracker-like consistency that is made without yeast. Due to the crispy crust, St. Louis pizza is usually cut into three- or four-inch rectangles, known as party or tavern cut. This pizza features Provel processed cheese, which is a gooey combination of cheddar, Swiss, and provolone cheeses.",
-            "price": 75000,
+            "price": "Rp. 75000",
             "img": "louise.jpg"
         },
         {
@@ -53,28 +53,28 @@
             "category": "beverages",
             "name": "Green Tea Cream Frappucino",
             "desc": "We blend sweetened premium matcha green tea, milk and ice and top it with sweetened whipped cream to give you a delicious boost of energy.",
-            "price": 30000,
+            "price": "Rp. 30000",
             "img": "green.jpg"
         }, 
         {
             "category": "beverages",
             "name": "Caramel Cream Frappuccino",
             "desc": "Milk blended with caramel sauce and ice then topped with whipped cream and caramel drizzle.",
-            "price": 35000,
+            "price": "Rp. 35000",
             "img": "car.jpg"
         }, 
         {
             "category": "pasta",
             "name": "Beef Stroganoff",
             "desc": "Make a classic beef stroganoff with steak and mushrooms for a tasty midweek meal. Garnish with parsley and serve with pappardelle pasta or rice.",
-            "price": 45000,
+            "price": "Rp. 45000",
             "img": "beef.jpg"
         }, 
         {
             "category": "pasta",
             "name": "Fettucine Alfredo",
             "desc": "Hankering for a comforting bowl of pasta in creamy sauce? This sumptuous Italian dish is for you. It takes just 25 minutes so it's an easy midweek meal.",
-            "price": 50000,
+            "price": "Rp. 50000",
             "img": "fett.jpg"
         }
     ]

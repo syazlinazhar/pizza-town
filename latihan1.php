@@ -56,7 +56,7 @@ $menu = $menu["menu"];
                     <h5 class="card-title"><?= $row["name"]; ?></h5>
                     <p class="card-text"><?= $row["desc"]; ?></p>
                     <h5 class="card-title"><?= $row["price"]; ?></h5>
-                    <a href="#" class="btn btn-dark">Order Now</a>
+                    <a href="#" class="btn btn-dark btn-block">Order Now</a>
                     </div>
                   </div>
               </div>
